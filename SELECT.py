@@ -1,6 +1,6 @@
 import sqlalchemy
 
-db = 'postgresql://postgres:1203Csgo!12@localhost:5432/music'
+db = 'postgresql://postgres:admin@localhost:5432/music'
 engine = sqlalchemy.create_engine(db)
 connection = engine.connect()
 
